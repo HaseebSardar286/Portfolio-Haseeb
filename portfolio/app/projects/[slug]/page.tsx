@@ -143,7 +143,7 @@ const projects: Record<
     heroGradient: "from-orange-900 via-red-950 to-black",
     heroImage:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015",
-    liveUrl: "https://dbt-five.vercel.app/",
+    liveUrl: "https://dental-billing-team.vercel.app/",
     githubUrl: "https://github.com/HaseebSardar286/DentalBillingTeam",
     period: "Feb 2026 – Mar 2026",
     problem:

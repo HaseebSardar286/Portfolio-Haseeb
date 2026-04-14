@@ -50,7 +50,7 @@ const allProjects = [
     imageGradient: "from-orange-900 to-red-950",
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015",
-    liveUrl: "https://dbt-five.vercel.app/",
+    liveUrl: "https://dental-billing-team.vercel.app/",
     period: "Feb 2026 – Mar 2026",
   },
   {
