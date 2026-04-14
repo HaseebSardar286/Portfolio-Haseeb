@@ -6,7 +6,7 @@ const skills = [
   { label: "Angular", level: 70 },
   { label: "Node.js / Express.js", level: 75 },
   { label: "Java/J2EE", level: 75 },
-  { label: "Python / Machine Learning", level: 70 },
+  { label: "Python / Machine Learning", level: 55 },
   { label: "MongoDB / MySQL / Firebase", level: 70 },
 ];
 

@@ -52,6 +52,12 @@ const Contact = () => {
                   href: "https://github.com/HaseebSardar286",
                 },
                 {
+                  icon: "🟢",
+                  label: "Fiverr",
+                  value: "fiverr.com/haseebsardar518",
+                  href: "https://www.fiverr.com/haseebsardar518?public_mode=true",
+                },
+                {
                   icon: "📍",
                   label: "Location",
                   value: "Lahore, Pakistan (Remote Worldwide)",

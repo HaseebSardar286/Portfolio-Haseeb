@@ -66,7 +66,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
           className="hidden md:block btn-primary text-sm text-white no-underline"
         >
-          Download Resume
+          Resume
         </a>
 
         {/* Mobile Menu Button */}
@@ -113,7 +113,7 @@ const Navbar = () => {
             href="/M.Haseeb Resume.pdf"
             className="btn-primary text-sm text-white text-center no-underline"
           >
-            Download Resume
+            Resume
           </a>
         </div>
       )}

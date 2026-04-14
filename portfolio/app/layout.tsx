@@ -28,8 +28,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} h-full antialiased scroll-smooth`} data-scroll-behavior="smooth">
-      <body className="min-h-full flex flex-col bg-[#000319]">{children}</body>
+    <html lang="en" className={`${inter.variable} h-full antialiased scroll-smooth`} data-scroll-behavior="smooth" suppressHydrationWarning>
+      <body className="min-h-full flex flex-col bg-[#000319]" suppressHydrationWarning>{children}</body>
     </html>
   );
 }

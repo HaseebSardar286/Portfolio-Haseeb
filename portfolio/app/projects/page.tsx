@@ -6,6 +6,22 @@ import Footer from "@/components/Footer";
 
 const allProjects = [
   {
+    slug: "denbury-bright-smiles",
+    title: "Denbury Bright Smiles",
+    subtitle: "Highly responsive web application for a premier dental clinic.",
+    tags: ["NEXT.JS", "TYPESCRIPT", "BOOTSTRAP 5"],
+    category: "Full-Stack",
+    features: [
+      "Custom UtmTracker for Marketing ROI",
+      "Dynamic Service Architecture via Next.js",
+    ],
+    imageGradient: "from-teal-900 to-cyan-950",
+    image:
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070",
+    liveUrl: "https://dental-clinic-inky.vercel.app/",
+    period: "Mar 2026 – Apr 2026",
+  },
+  {
     slug: "assetloop-rental-platform",
     title: "AssetLoop — Rental Platform",
     subtitle: "Full-stack rental platform with end-to-end booking workflows.",

@@ -32,7 +32,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
         {/* Badge */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
@@ -45,7 +45,7 @@ const Hero = () => {
         </motion.div>
 
         {/* Name */}
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
@@ -56,7 +56,7 @@ const Hero = () => {
         </motion.h1>
 
         {/* Subtitle */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -74,7 +74,7 @@ const Hero = () => {
         </motion.div>
 
         {/* Description */}
-        <motion.p 
+        <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
@@ -86,7 +86,7 @@ const Hero = () => {
         </motion.p>
 
         {/* CTA Buttons */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
@@ -101,7 +101,7 @@ const Hero = () => {
         </motion.div>
 
         {/* Stats */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.5 }}
@@ -123,7 +123,7 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      {/* Scroll indicator */}
+      {/* Scroll indicator
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-float">
         <span className="text-white/30 text-xs tracking-widest uppercase">
           Scroll
@@ -131,7 +131,7 @@ const Hero = () => {
         <div className="w-5 h-8 border border-white/20 rounded-full flex items-start justify-center pt-1.5">
           <div className="w-1 h-2 bg-purple-400 rounded-full animate-bounce" />
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

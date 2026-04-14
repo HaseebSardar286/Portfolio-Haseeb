@@ -22,6 +22,52 @@ const projects: Record<
     nextProject: { slug: string; title: string };
   }
 > = {
+  "denbury-bright-smiles": {
+    title: "Denbury Bright Smiles",
+    tagline:
+      "A modern, highly responsive web application built for a premier dental clinic designed to enhance patient acquisition and streamline online appointment booking.",
+    heroGradient: "from-teal-900 via-cyan-950 to-black",
+    heroImage:
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070",
+    liveUrl: "https://dental-clinic-inky.vercel.app/",
+    githubUrl: "#",
+    period: "Mar 2026 – Apr 2026",
+    problem:
+      "The dental clinic needed a modern, performant web presence that not only presented all of their deep dental services interactively but also structurally enhanced their patient acquisition capabilities and lead generation through online appointment flows.",
+    problemStats: [
+      { label: "Lead Generation", value: "INEFFICIENT", color: "text-red-400" },
+      { label: "Marketing ROI Tracking", value: "LOW", color: "text-yellow-400" },
+    ],
+    solution:
+      "Engineered a Next.js 16 full-stack web application implementing dynamic service architectures for various specialties, an integrated marketing attribution system (UTM tracking), and a modern, high-performance UI using Framer Motion and Bootstrap 5.",
+    techStack: [
+      { name: "Next.js", icon: "▲" },
+      { name: "React 19", icon: "⚛" },
+      { name: "TypeScript", icon: "📘" },
+      { name: "Bootstrap 5", icon: "🅱" },
+      { name: "Framer Motion", icon: "✨" },
+      { name: "Font Awesome", icon: "🎨" },
+    ],
+    highlights: [
+      "Architected a Next.js 16 full-stack web application focusing on SEO, high-performance rendering, and patient acquisition",
+      "Designed a premium UI incorporating Bootstrap 5, custom CSS variables, and Framer Motion staggered animations",
+      "Engineered a custom UtmTracker component that automatically captures and stores marketing UTM parameters into patient appointment payloads",
+      "Developed an asynchronous Appointment Request form connecting directly to a backend REST API with react-hot-toast feedback",
+      "Constructed a comprehensive patient resources section detailing custom in-house membership savings plans and flexible financing",
+    ],
+    resources: [
+      {
+        label: "Live Demo",
+        icon: "↗",
+        href: "https://dental-clinic-inky.vercel.app/",
+      },
+    ],
+    nextProject: {
+      slug: "assetloop-rental-platform",
+      title: "AssetLoop Rental Platform",
+    },
+  },
+
   "assetloop-rental-platform": {
     title: "AssetLoop — Rental Platform",
     tagline:
@@ -314,8 +360,8 @@ const projects: Record<
       { label: "Company", icon: "🏢", href: "https://concavetech.com" },
     ],
     nextProject: {
-      slug: "assetloop-rental-platform",
-      title: "AssetLoop Rental Platform",
+      slug: "denbury-bright-smiles",
+      title: "Denbury Bright Smiles",
     },
   },
 };

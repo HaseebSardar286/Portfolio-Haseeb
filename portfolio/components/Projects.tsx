@@ -5,6 +5,19 @@ import Link from "next/link";
 
 const projects = [
   {
+    slug: "denbury-bright-smiles",
+    title: "Denbury Bright Smiles",
+    subtitle: "Next.js Medical Web App",
+    description:
+      "A modern, highly responsive web application built for a premier dental clinic, engineered to enhance patient acquisition with integrated lead generation.",
+    tags: ["Next.js", "TypeScript", "Bootstrap", "Framer Motion"],
+    color: "from-teal-600 to-cyan-600",
+    image:
+      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070",
+    link: "https://dental-clinic-inky.vercel.app/",
+    period: "Mar 2026 – Apr 2026",
+  },
+  {
     slug: "assetloop-rental-platform",
     title: "AssetLoop — Rental Platform",
     subtitle: "Full-Stack Web Application",
@@ -42,45 +55,6 @@ const projects = [
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015",
     link: "https://dental-billing-team.vercel.app/",
     period: "Feb 2026 – Mar 2026",
-  },
-  {
-    slug: "mlb-ai-predictor",
-    title: "MLB AI Predictor & Analytics",
-    subtitle: "AI Betting Engine",
-    description:
-      "Automated prediction system using XGBoost and Scikit-Learn. Calculates Game Winners and Player Props, finding the true Edge vs real-time bookmaker odds.",
-    tags: ["Python", "XGBoost", "Scikit-Learn", "REST APIs"],
-    color: "from-blue-600 to-cyan-600",
-    image:
-      "https://images.unsplash.com/photo-1543286386-2e659306cd6c?q=80&w=2070",
-    link: "#",
-    period: "May 2025",
-  },
-  {
-    slug: "SVM-Model-for-Engine-Failure",
-    title: "SVM Model for Engine Failure",
-    subtitle: "Predictive Maintenance ML",
-    description:
-      "Predictive maintenance model classifying engine failure using SVM. Processed 1000+ records with 11+ features, achieving 90% accuracy in anomaly detection.",
-    tags: ["Python", "SVM", "Pandas"],
-    color: "from-emerald-600 to-green-600",
-    image:
-      "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?q=80&w=2070",
-    link: "https://github.com/HaseebSardar286/SVM-Model-for-Engine-Failure-dataset",
-    period: "April 2026",
-  },
-  {
-    slug: "concavetech-modules",
-    title: "Enterprise Web Modules",
-    subtitle: "Professional Work — ConcaveTech",
-    description:
-      "Engineered 4+ scalable web modules in Angular + Java (MVC), integrated 10+ REST APIs, and boosted frontend performance by ~25% via lazy loading and modular component design.",
-    tags: ["Angular", "Java", "REST APIs", "MVC"],
-    color: "from-indigo-600 to-blue-600",
-    image:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072",
-    link: "#",
-    period: "Apr 2025 – Present",
   },
 ];
 
